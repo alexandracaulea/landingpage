@@ -10,7 +10,7 @@
 
 /* FONTS */
 @font-face {
-  font-family: var(--font-family-two);
+  font-family: "Brandon Grotesque";
   src: url("../fonts/BrandonGrotesque-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
@@ -18,7 +18,7 @@
 }
 
 @font-face {
-  font-family: var(--font-family-two);
+  font-family: "Brandon Grotesque";
   src: url("../fonts/BrandonGrotesque-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
@@ -26,7 +26,7 @@
 }
 
 @font-face {
-  font-family: var(--font-family-one);
+  font-family: "Bauer Bodoni";
   src: url("../fonts/BauerBodoni-BoldItalic.ttf") format("truetype");
   font-weight: bold;
   font-style: italic;
@@ -34,7 +34,7 @@
 }
 
 @font-face {
-  font-family: var(--font-family-three);
+  font-family: "Brandon Grotesque Black";
   src: url("../fonts/BrandonGrotesque-Black.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
@@ -82,7 +82,7 @@ button {
 }
 
 body {
-  font-family: var(--font-family-two), sans-serif;
+  font-family: "Brandon Grotesque", sans-serif;
   font-weight: normal;
   font-style: normal;
   text-rendering: optimizeSpeed;
@@ -242,7 +242,7 @@ body {
   font-weight: 700;
   font-style: italic;
   text-transform: uppercase;
-  font-family: var(--font-family-one);
+  font-family: "Bauer Bodoni", serif;
   color: #fff;
 }
 
@@ -252,7 +252,7 @@ body {
   background-color: #fff;
   border-radius: var(--metric-radius);
   text-decoration: none;
-  font-family: var(--font-family-two);
+  font-family: "Brandon Grotesque", sans-serif;
   font-size: 18px;
   line-height: 1.6;
   font-weight: normal;
@@ -410,7 +410,7 @@ body {
 .banner-highlight {
   display: block;
   font-size: 37px;
-  font-family: var(--font-family-three);
+  font-family: "Brandon Grotesque Black", sans-serif;
   font-weight: 900;
   text-transform: uppercase;
 }
@@ -486,7 +486,7 @@ body {
 
 .contact-banner-title {
   font-style: italic;
-  font-family: var(--font-family-one);
+  font-family: "Bauer Bodoni", serif;
   text-align: center;
   color: #fff;
   line-height: 1.5;
@@ -508,7 +508,7 @@ body {
 }
 
 .contact-banner-details {
-  font-family: var(--font-family-one);
+  font-family: "Bauer Bodoni", serif;
   font-style: italic;
   color: #fff;
   font-weight: 700;
