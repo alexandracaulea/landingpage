@@ -11,7 +11,7 @@
 /* FONTS */
 @font-face {
   font-family: var(--font-family-two);
-  src: url("../fonts/BrandonGrotesque-Regular.ttf") format(truetype);
+  src: url("../fonts/BrandonGrotesque-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -19,7 +19,7 @@
 
 @font-face {
   font-family: var(--font-family-two);
-  src: url("../fonts/BrandonGrotesque-Bold.ttf") format(truetype);
+  src: url("../fonts/BrandonGrotesque-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -27,7 +27,7 @@
 
 @font-face {
   font-family: var(--font-family-one);
-  src: url("../fonts/BauerBodoni-BoldItalic.ttf") format(truetype);
+  src: url("../fonts/BauerBodoni-BoldItalic.ttf") format("truetype");
   font-weight: bold;
   font-style: italic;
   font-display: swap;
@@ -35,7 +35,7 @@
 
 @font-face {
   font-family: var(--font-family-three);
-  src: url("../fonts/BrandonGrotesque-Black.ttf") format(truetype);
+  src: url("../fonts/BrandonGrotesque-Black.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
