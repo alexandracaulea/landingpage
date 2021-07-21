@@ -477,11 +477,19 @@ body {
   margin-top: 70px;
   margin-bottom: 70px;
   background-size: cover;
-  background-image: url("../img/contact-banner.png");
+  background-image: url("../img/contact-cover.png");
   background-repeat: no-repeat;
   padding: 0 var(--metric-gutter);
   background-position: center center;
   text-transform: uppercase;
+  -webkit-mask-image: url("../img/contact-banner-mask.png");
+  mask-image: url("../img/contact-banner-mask.png");
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  -webkit-mask-position: bottom;
+  mask-position: bottom;
 }
 
 .contact-banner-title {
